@@ -12,7 +12,7 @@
     <title>Coshop</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Coshop</a>
+                <a class="navbar-brand" href="#page-top"><img class="logo" src="img/logot.png" alt="logo"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -71,14 +71,13 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+        <div id="hdbcg" class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img id="caddie" class="img-responsive center-block" src="img/caddie.jpg" alt="image caddie">
                     <div class="intro-text">
-                        <span class="name">Coshop</span>
+                        <img class="name img-responsive" src="img/logot.png" alt="logo">
                         <hr class="star-light">
-                        <span class="skills">Coshopping - covoit-shop - co-dépann' - coréduc'</span>
+                        <h1 class="skills">Covoiturage-shoppping et Coshopping</h1>
                     </div>
                 </div>
             </div>
@@ -87,7 +86,7 @@
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 id="services">Services</h2>
@@ -95,48 +94,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-3 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img id="coshopping" src="img/coshopping.jpg" class="img-responsive" alt="">
-                    </a>
+                <div class="col-sm-12 col-md-4 col-md-offset-1 services">
+                  <h3>Covoiturage - shopping</h3>
+                        <img id="covoitShop" src="img/covoitShop.png" class="img-responsive" alt="covoit">
+                        <p class="descript">Emmenez un de vos voisins pour qu'il puisse faire ses courses en même temps que vous et partagez vos frais de carburant.<br>Economique et écologique, Vous rendez service à votre voisin et à la planète ;)</p>
+                        <button class="btn-insc" role="button" href="#contact">Trouvez près de chez vous!</button>
                 </div>
-                <div class="col-sm-6 col-md-3 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img id="covoitShop" src="img/covoitShop.png" class="img-responsive" alt="">
-                    </a>
+                <div class="col-sm-12 col-md-4 col-md-offset-2 services">
+                  <h3>Co-Shopping</h3>
+                        <img id="coshopping" src="img/coshopping.jpg" class="img-responsive" alt="coshop">
+                        <p class="descript">Trouvez un de nos co-shoppeur près de chez vous, il fera vos courses à votre place et vous les livrera ou les gardera jusqu'à ce que vous veniez les chercher (à la sortie du boulot par exemple).<br> Plus économique que la livraison à domicile proposée par les magasins, vous avez un plus grand choix de produit (le magasin entier par exemple ^^)</p>
+                        <button class="btn-insc" role="button" href="#contact">Trouvez près de chez vous!</button>
                 </div>
-                <div class="col-sm-6 col-md-3 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img id ="coDepann" src="img/coDepann.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-3 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img id="coReduc" src="img/coReduc.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-              </div>
+            </div>
         </div>
     </section>
 
